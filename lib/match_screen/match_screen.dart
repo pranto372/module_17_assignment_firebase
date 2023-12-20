@@ -9,6 +9,7 @@ class MatchListScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
         title: const Text('Match List'),
       ),
       body: StreamBuilder(
